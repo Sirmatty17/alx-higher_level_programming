@@ -9,8 +9,3 @@ SELECT `name`, SUM(`rate`) AS `rating`
        ON r.`show_id` = s.`show_id`
  GROUP BY `name`
  ORDER BY `rating` DESC;
-Footer
-© 2023 GitHub, Inc.
-Footer navigation
-Terms
-
